@@ -10,6 +10,7 @@ export default defineConfig({
     allowedHosts: 'all',
     cors: true,
   },
+  base: './',
   build: {
     rollupOptions: {
       output: {

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Dev tools
+.vite/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.cursor/
+.vscode/
+*.swp
+
+# Dev scripts (not needed in production)
+scripts/
+
+# Other sub-projects in this folder (not part of the React app)
+gmn_app/
+docs/
+server/
